@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;TimeTable&apos;&#x0A;- Original project: &apos;TimeTable&apos;&#x0A;- Original element: &apos;TimeTable.LookAndFeel.java&apos;" description="Delete element" element1="/src&lt;TimeTable{LookAndFeel.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1400986747270" subPackages="false" version="1.0"/>
+</session>

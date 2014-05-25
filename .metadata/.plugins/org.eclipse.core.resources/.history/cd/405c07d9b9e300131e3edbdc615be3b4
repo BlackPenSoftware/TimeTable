@@ -1,0 +1,22 @@
+package TimeTable;
+
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.geom.Line2D;
+
+public class Lines {
+
+	public static void main(String args[]){
+		
+		
+		
+		
+	}
+
+	public static void paintComponent(Graphics2D g) {
+
+		g.draw(new Line2D.Double(0, 0, 30, 40));
+	 
+	} 
+	
+}

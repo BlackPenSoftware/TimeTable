@@ -1,0 +1,25 @@
+package TimeTable;
+
+import java.awt.Graphics;
+import java.awt.geom.Line2D;
+
+public class Lines {
+
+	public static void main(String args[]){
+		
+		Lines.paintComponent();
+		
+		
+	}
+
+	public void paintComponent(Graphics g) {
+	    // Let UI Delegate paint first, which 
+	    // includes background filling since 
+	    // this component is opaque.
+
+	          
+	    g.drawString("This is my custom Panel!",10,20);
+	    
+	}  
+	
+}
