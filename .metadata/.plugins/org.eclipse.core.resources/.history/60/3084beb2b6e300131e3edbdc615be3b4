@@ -1,0 +1,20 @@
+package TimeTable;
+
+import java.awt.Color;
+import javax.swing.JFrame;
+
+public class Main {
+
+	static int width;
+	static int height;
+	
+	public static void main(String args[]) throws Exception{
+		
+			Window.Window(args);
+		
+	}
+	
+	
+}
+
+

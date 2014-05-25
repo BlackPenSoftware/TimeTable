@@ -1,0 +1,42 @@
+package TimeTable;
+
+import java.awt.Color;
+import java.awt.Graphics;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class Main {
+
+	int width, height;
+	
+	public static void main(String args[]){
+		
+		String WindowName= "Window";
+		
+		JFrame Window = new JFrame(WindowName);
+		
+		Window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		Window.setVisible(true);
+		
+		Window.setSize(700, 700);
+		
+		 width = Window.getSize().width;
+	      height = Window.getSize().height;
+	      Window.setBackground( Color.black );
+		
+	}
+	
+	public void paint(Graphics g){
+		
+		g.setColor( Color.green );
+	      for ( int i = 0; i < 10; ++i ) {
+	         g.drawLine( width, height, i * width / 10, 0 );
+	      }
+		
+	}
+	
+}
+
+

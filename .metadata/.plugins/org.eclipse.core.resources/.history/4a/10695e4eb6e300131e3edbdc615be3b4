@@ -1,0 +1,36 @@
+package TimeTable;
+
+import java.awt.Color;
+import java.awt.Graphics;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class Main {
+
+	static int width;
+	static int height;
+	
+	public static void main(String args[]) throws Exception{
+		
+		String WindowName= "Window";
+		
+		JFrame Window = new JFrame(WindowName);
+		
+		Window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		Window.setVisible(true);
+		
+		Window.setSize(700, 700);
+		
+		 width = Window.getSize().width;
+		 
+	      height = Window.getSize().height;
+	      
+	      Window.setBackground( Color.DARK_GRAY );
+		
+	}
+	
+}
+
+
