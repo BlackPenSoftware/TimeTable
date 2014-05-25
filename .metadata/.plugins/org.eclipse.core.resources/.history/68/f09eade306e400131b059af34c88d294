@@ -15,7 +15,7 @@ public class Window {
 		
 	}
 	
-public static void Window(String args[]){
+public static void Window(String[] args){
 		
 		String WindowName= "Window";
 			

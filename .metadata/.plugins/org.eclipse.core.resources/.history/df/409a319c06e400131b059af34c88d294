@@ -1,4 +1,4 @@
-package timetable;
+package TimeTable;
 
 
 public class Lines {
