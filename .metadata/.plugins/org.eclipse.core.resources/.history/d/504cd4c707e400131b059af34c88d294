@@ -4,6 +4,8 @@ import java.awt.Color;
 
 import javax.swing.JFrame;
 
+import panels.MainPanel;
+
 public class Window {
 
 	static int width;
@@ -33,7 +35,7 @@ public static void Window(String args[]){
 		      
 		      Window.setBackground( Color.DARK_GRAY );
 		      
-		      
+		      Window.getContentPane().add(MainPanel);
 			
 		}
 	

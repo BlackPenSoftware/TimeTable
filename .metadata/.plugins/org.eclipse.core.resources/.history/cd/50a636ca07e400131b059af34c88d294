@@ -4,6 +4,8 @@ import java.awt.Color;
 
 import javax.swing.JFrame;
 
+import panels.MainPanel;
+
 public class Window {
 
 	static int width;

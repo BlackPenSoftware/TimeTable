@@ -32,8 +32,6 @@ public static void Window(String args[]){
 		      height = Window.getSize().height;
 		      
 		      Window.setBackground( Color.DARK_GRAY );
-		      
-		      
 			
 		}
 	
